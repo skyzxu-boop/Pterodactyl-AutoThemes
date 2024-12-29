@@ -209,7 +209,6 @@ find_pterodactyl
 if [ "$PTERO_INSTALL" == true ]; then
     print "Installation of the panel found, continuing the installation..."
 
-    compatibility
     dependencies
     backup
     download_files
